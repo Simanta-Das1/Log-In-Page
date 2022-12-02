@@ -1,0 +1,64 @@
+
+*{
+    margin:0 px;
+    padding:0 ;
+}
+body{
+    background: url("Chrysanthemum.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    /* border:10px solid yellowgreen; */
+    color: white;
+    position: absolute;
+    top:35%;
+    left:60%;
+}
+h1{
+    font-size:35px;
+    border-bottom: 3px solid white;
+    text-align: center;
+    width:230px;
+}
+.box{
+    /* border:2px solid purple; */
+    margin:0px 0px 0px 25px;
+    border-bottom: 2px solid white;
+}
+/* .box input{
+    border: 1px solid white;
+    border-radius: 3px;
+    outline: none;
+    font-size: 13px;
+    margin:8px 2px 5px 0px;
+    padding: 3px 0px;
+
+} */
+
+.box input{
+    background: none;
+    border:none;
+    outline: none;
+    font-size: 13px;
+    margin:8px 2px 5px 0px;
+    padding: 3px 3px;
+    color:white;
+}
+
+.btn{
+    color:white;
+    font-size:13px;
+    margin:25px 0px;
+    border:1px solid white;
+    border-radius: 0px;
+    width: 80px;
+    height: 15 px;
+    padding:5px 1px;
+    background: none;
+}
+
+.btn:hover{
+    background-color:white;
+    color:orangered;
+}
